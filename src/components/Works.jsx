@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  github_code_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -35,7 +36,7 @@ const ProjectCard = ({
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => window.open(github_code_link ? github_code_link :source_code_link )}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
@@ -47,8 +48,12 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+        <div className='mt-5 '
+        
+        >
+          <h3 className='text-white font-bold text-[24px] cursor-pointer'
+          onClick={() => window.open(source_code_link, "_blank")}
+          >{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 

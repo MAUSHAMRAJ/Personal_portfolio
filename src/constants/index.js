@@ -143,7 +143,8 @@ const projects = [
       },
     ],
     image: deschool,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.deschoolonline.com/",
+    // github_code_link:" ",
   },
   {
     name: "VCcircle",
@@ -164,7 +165,7 @@ const projects = [
       },
     ],
     image: vccircle,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.vccircle.com/",
   },
   {
     name: "Portfolio Website",
@@ -185,7 +186,8 @@ const projects = [
       },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://maushamraj-portfolio.netlify.app/",
+    github_code_link:"https://github.com/MAUSHAMRAJ/Personal_portfolio",
   },
 ];
 
