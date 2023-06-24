@@ -113,7 +113,7 @@ const experiences = [
     company_name: "Spark-Eighteen",
     icon: sparkeighteenlogo,
     iconBg: "#E6DEDD",
-    date: "June 2022 -April 2023",
+    date: "June 2022 -Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
