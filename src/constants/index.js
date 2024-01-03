@@ -143,7 +143,7 @@ const projects = [
       },
     ],
     image: deschool,
-    source_code_link: "https://www.deschoolonline.com/",
+    source_code_link: "https://deschool.ca/",
     // github_code_link:" ",
   },
   {
